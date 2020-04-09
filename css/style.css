@@ -159,7 +159,9 @@ background-color: white;
 }
 .date{
 	background-color: #F0F0F0;
-	padding: 2px;
+	padding: 20px;
+	border-top: 5px solid #BD3829;
+	
 }
 .date span{
 	font-weight: bold;
@@ -174,25 +176,29 @@ background-color: white;
 .title{
 	color: #003366;
 	font-weight: bold;
+	padding-bottom: 15px;
 }
 .title a{
 	text-decoration: none;
+	cursor: pointer;
 }
 .bxslider{
 	padding: 20px;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	background-color: #E0E0E0;
 
 }
 .ul-news{
 	padding: 0 0 0 10px;
 }
+
 .other-hot-new li{
 	list-style: none;
 	padding: 0;
 }
 .other-hot-new li a{
-	font-size: 80%;
+	font-size: 14px;
+	padding-right: 10px;
 }
 /*home-content-top*/
 
@@ -231,14 +237,23 @@ background-color: white;
 .title-box{
 	border-top: 5px solid#BD3829;
 }
+
+.thongBao {
+	margin-top: 20px;
+}
+
+.title-box a {
+	padding-bottom: 5px;
+	text-decoration: none;
+}
 .hr1{
 	border: 1px dashed #F1F1F1;
+	margin-bottom: 10px !important;
 }
+
 .title-box p{
 	text-align: center;
-
-	padding: 10px;
-	margin-bottom: -8%;
+	margin-bottom: -2px;
 	
 }
 .text-justifi a{
@@ -316,6 +331,7 @@ background-color: white;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+
 
 
 
@@ -437,4 +453,8 @@ cite{
 
 .pagination > li > a:hover{
 	background-color: #7FBA00;
+}
+
+.container-fluid{
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
 }
